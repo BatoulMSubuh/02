@@ -1,0 +1,26 @@
+﻿Build started 12/31/2023 2:22:38 PM.
+     1>Project "C:\Users\HP\Documents\Visual Studio 2012\Projects\Tote\Tote\Tote.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\hp\documents\visual studio 2012\projects\tote\tote\source.cpp(18): warning C4005: '_CRT_SECURE_NO_DEPRECATE' : macro redefinition
+                 command-line arguments :  see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+     1>c:\users\hp\documents\visual studio 2012\projects\tote\tote\source.cpp(101): warning C4244: 'argument' : conversion from 'double' to 'GLint', possible loss of data
+     1>c:\users\hp\documents\visual studio 2012\projects\tote\tote\source.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+     1>c:\users\hp\documents\visual studio 2012\projects\tote\tote\source.cpp(288): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\hp\documents\visual studio 2012\projects\tote\tote\source.cpp(307): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\hp\documents\visual studio 2012\projects\tote\tote\source.cpp(323): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\hp\documents\visual studio 2012\projects\tote\tote\source.cpp(337): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HP\Documents\Visual Studio 2012\Projects\Tote\Debug\Tote.exe" /INCREMENTAL /NOLOGO GLAUX.lib GLU32.lib glut.lib OPENGL32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\HP\Documents\Visual Studio 2012\Projects\Tote\Debug\Tote.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HP\Documents\Visual Studio 2012\Projects\Tote\Debug\Tote.lib" /MACHINE:X86 Debug\Point.obj
+         Debug\PrimitiveDrawer.obj
+         Debug\Skybox.obj
+         Debug\Source.obj
+         Debug\Stair.obj
+         Debug\texture.obj
+         Tote.vcxproj -> C:\Users\HP\Documents\Visual Studio 2012\Projects\Tote\Debug\Tote.exe
+     1>Done Building Project "C:\Users\HP\Documents\Visual Studio 2012\Projects\Tote\Tote\Tote.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91
